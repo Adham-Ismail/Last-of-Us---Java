@@ -1,0 +1,32 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.button{
+	-fx-background-color: transparent; /* Green */
+  	-fx-background-border: none;
+  	-fx-font-color: white;
+  	-fx-padding: 15px 32px;
+  	-fx-text-align: center;
+  	-fx-text-decoration: none;
+  	-fx-display: inline-block;
+  	-fx-font-size: 32px;
+  	-fx-border-radius: 30px;
+  	-fx-text-fill: #FFFFFF;
+}
+
+.label{
+	-fx-background-color: black; /* Green */
+  	-fx-background-border: none;
+  	-fx-font-color: white;
+  	-fx-padding: 15px 32px;
+  	-fx-text-align: center;
+  	-fx-text-decoration: none;
+  	-fx-display: inline-block;
+  	-fx-font-size: 15px;
+  	-fx-border-radius: 20px;
+  	-fx-text-fill: #FFFFFF;
+}
+.button:hover {
+  -fx-padding-right: 25px;
+  -fx-text-fill: #FF0000;
+}
+
